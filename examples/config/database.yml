@@ -1,0 +1,17 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: dev_database
+  username: dev_user
+  password: dev_pass
+  host: your-host.rds.amazonaws.com
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: prod_database
+  username: prod_user
+  password: prod_pass
+  host: your-host.rds.amazonaws.com
