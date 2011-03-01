@@ -2,7 +2,7 @@ require_relative 'base_worker'
 require_relative 'example_worker'
 
 # load keys, initialize worker, establish simple record connection
-@env = :development # :production, :staging
+@env = :development # :production
 
 # load configuration script
 load File.expand_path('worker_configure.rb', File.dirname(__FILE__))
